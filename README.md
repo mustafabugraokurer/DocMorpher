@@ -28,3 +28,38 @@ python gui_converter.py
 ```
 
 Select the source file, choose an output directory and target format, then click **Dönüştür** to start the conversion.
+
+## Türkçe Kullanım
+
+DocMorpher ile TIF, PDF, UDF, DOCX, XLSX ve PPTX dosyalarını kolayca PDF, Word
+ve görsel formatlara dönüştürebilirsiniz.
+
+### Gereksinimler
+
+Python 3.8 veya daha yeni bir sürüm ve şu paketlerin kurulması gerekir:
+
+```
+pip install pytesseract pdf2docx ocrmypdf comtypes pillow python-docx pymupdf numpy
+```
+
+### Harici Araçlar
+
+- **Tesseract OCR** – OCR işlemleri için gereklidir. `gui_converter.py` içinde
+`pytesseract.pytesseract.tesseract_cmd` değişkeninin `tesseract` yürütülebilirine
+işaret ettiğinden emin olun.
+- **Microsoft Office** – DOCX/XLSX/PPTX dosyalarını PDF'e çevirmek için
+gereklidir.
+
+### Çalıştırma
+
+1. Tesseract ve Microsoft Office'in kurulu ve yapılandırılmış olduğundan emin olun.
+2. Yukarıda listelenen Python paketlerini kurun.
+3. Uygulamayı şu komutla başlatın:
+
+```
+python gui_converter.py
+```
+
+Kaynak dosyayı seçin, çıktı klasörünü ve hedef formatı belirleyin; ardından
+**Dönüştür** düğmesine tıklayarak dönüştürmeyi başlatın.
+=======
