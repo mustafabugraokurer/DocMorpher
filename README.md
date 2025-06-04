@@ -62,3 +62,4 @@ python gui_converter.py
 
 Kaynak dosyayı seçin, çıktı klasörünü ve hedef formatı belirleyin; ardından
 **Dönüştür** düğmesine tıklayarak dönüştürmeyi başlatın.
+=======
