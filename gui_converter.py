@@ -160,13 +160,7 @@ def convert_office_to_pdf(file_path):
         log(f"[HATA] {e}")
 
 
-def convert_udf_to_pdf(file_path):
-    try:
-        base = os.path.splitext(os.path.basename(file_path))[0]
-        output_file = os.path.join(output_dir, f"{base}.pdf")
-        log("[UYARI] UDF dosyası PDF'e dönüştürme desteği henüz entegre edilmedi.")
-    except Exception as e:
-        log(f"[HATA] {e}")
+
 
 
 def select_file():
